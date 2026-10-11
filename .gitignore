@@ -1,0 +1,14 @@
+# Build output. build.bat produces these alongside the sources; they are
+# regenerated from source and are not worth tracking (or committing, at ~3 MB
+# each).
+*.exe
+
+# Object files, in case a build is ever done by hand with -c.
+*.o
+*.obj
+
+# Editor and OS clutter.
+*.swp
+*~
+Thumbs.db
+Desktop.ini
